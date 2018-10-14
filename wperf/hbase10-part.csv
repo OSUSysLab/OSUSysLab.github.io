@@ -1,0 +1,43 @@
+source,target,value
+Handler,Handler,7540.61
+ParallelGC,ParallelGC,2491.10
+VMThread,Handler,1069.02
+RespProc(Log),NIC,824.77
+ConcurrentGC,VMThread,400.01
+LogRoller,Handler,173.04
+RespProc(MemStore),Streamer(MemStore),96.25
+IPC Client(HDFS),NIC,92.62
+ParallelGC,VMThread,88.69
+Streamer(MemStore),CacheFlusher,88.07
+Handler,RespProc(Log),87.42
+ParallelCMS,ConcurrentGC,78.03
+Streamer(Log),Handler,71.65
+NIC,Streamer(Log),50.36
+CacheFlusher,Handler,30.95
+VMThread,RespProc(Log),25.61
+VMThread,CacheFlusher,23.04
+Streamer(Log),RespProc(Log),15.88
+VMThread,ParallelGC,15.74
+NIC,Streamer(MemStore),14.68
+VMThread,IPC Client(HDFS),14.08
+RespProc(Log),Handler,13.71
+Streamer(MemStore),NIC,13.69
+VMThread,Streamer(Log),13.27
+CacheFlusher,RespProc(MemStore),12.57
+RespProc(Log),VMThread,9.30
+VMThread,NIC,7.24
+RespProc(Log),Streamer(Log),6.20
+RespProc(MemStore),NIC,5.80
+IPC Client(HDFS),VMThread,4.95
+CacheFlusher,Streamer(MemStore),4.31
+Streamer(Log),LogRoller,3.99
+NIC,Handler,3.50
+Handler,Streamer(Log),3.32
+RespProc(Log),IPC Client(HDFS),2.81
+IPC Client(HDFS),RespProc(Log),2.66
+VMThread,ConcurrentGC,1.25
+CacheFlusher,NIC,1.21
+IPC Client(HDFS),Handler,1.09
+Handler,VMThread,0.97
+VMThread,LogRoller,0.78
+LogRoller,RespProc(Log),0.69

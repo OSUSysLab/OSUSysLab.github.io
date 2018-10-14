@@ -1,0 +1,16 @@
+source,target,value
+KworkerHP(Recv),NIC,587.24
+Kworker(Recv),KworkerHP(Recv),385.96
+Grep,Kworker(Recv),261.49
+Grep,KworkerHP(Recv),112.74
+Kworker1(TTY),Grep,90.61
+Kworker(Send),Grep,89.07
+Kworker2(TTY),Grep,87.77
+NIC,Kworker(Send),61.27
+NIC,Grep,22.77
+Kworker3(TTY),Grep,19.11
+NIC,Kworker(Recv),5.13
+NIC,KworkerHP(Send),0.30
+KworkerHP(Send),Grep,0.10
+NIC,KworkerHP(Recv),0.02
+KworkerHP(Send),Kworker(Send),0.02
